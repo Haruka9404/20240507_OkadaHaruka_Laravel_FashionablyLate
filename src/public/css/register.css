@@ -1,0 +1,88 @@
+main {
+    background-color: rgb(227, 220, 220);
+}
+
+.content__title {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    border-top: 1px rgb(240, 240, 240) solid;
+}
+
+.list {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    margin: 15px 0px;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav__content-item {
+    border: 1px rgb(175, 134, 134) solid;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+
+.nav__content-item__link {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+}
+
+.content__inner {
+    padding-bottom: 5%;
+}
+
+.content__card {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 0 auto;
+    border: 1px rgb(202, 201, 201) solid;
+    border-radius: 5px;
+}
+
+.content__card__create {
+    margin: 10% 20%;
+}
+
+.content__card__textbox {
+    text-align: center;
+}
+
+.content__card__content-title {
+    margin: 10px 0;
+    color: rgb(181, 156, 156);
+}
+
+.content__card__textbox input {
+    padding: 15px 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(181, 156, 156);
+}
+
+.content__card__content-submit {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.content__card__content-button {
+    background-color: rgb(182, 134, 134);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    appearance: none;
+    font-size: 14px;
+    width: 30%;
+}

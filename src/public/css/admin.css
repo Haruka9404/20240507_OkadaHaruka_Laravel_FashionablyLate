@@ -1,0 +1,57 @@
+.content__title {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    border-top: 1px rgb(240, 240, 240) solid;
+}
+
+.list {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    margin: 15px 0px;
+}
+
+.nav__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav__content-item {
+    border: 1px rgb(175, 134, 134) solid;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 0 10px;
+}
+
+.nav__content-item__link {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+}
+
+.content__search input {
+    padding: 10px 3%;
+    text-align: left;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+
+.content__card__search-button {
+    padding: 10px 3%;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(182, 134, 134);
+    color: rgb(255, 255, 255);
+}
+
+.content__card__reset-button {
+    padding: 10px 3%;
+    text-align: left;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(222, 189, 189);
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,92 @@
+.contact-form__heading {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    padding:20px;
+    border-top: 1px rgb(240, 240, 240) solid;
+}
+
+.contact-form__content {
+    color:rgb(181, 156, 156);
+}
+
+.form {
+    margin:30px 15%;
+}
+
+.form__group {
+    margin:20px 0px;
+    display:flex;
+}
+
+.form__group-content {
+    display: flex;
+}
+
+.form__group-content__title {
+    width:250px;
+    display: flex;
+}
+
+.form__group-content__input input,select,textarea {
+    padding: 5px;
+    /* width: 400px; */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 0 10px;
+    background-color: rgb(240, 240, 240);
+    color: rgb(157, 157, 157);
+}
+
+.form__group-content__input-name {
+    width: 190px;
+    margin: 0 10px;
+}
+
+.form__group-content__input-email {
+    width: 400px;
+}
+
+.form__group-content__input-tel {
+    width: 100px;
+}
+
+.form__group-content__input-address {
+    width: 400px;
+}
+
+.form__group-content__input-building {
+    width: 400px;
+}
+
+.form__group-content__input-category {
+    width: 200px;
+}
+
+.form__group-content__input-text {
+    width: 400px;
+    height:80px;
+}
+
+.form__group-content__title span {
+    margin:5px;
+    color:red;
+}
+
+.form__button {
+    padding: 20px;
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 100px;
+    background-color:rgb(182, 134, 134);
+    border: none;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    appearance: none;
+    font-size: 14px;
+}

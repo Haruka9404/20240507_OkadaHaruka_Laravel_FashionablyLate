@@ -1,0 +1,52 @@
+.header {
+    background: #ffffff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 30px 20px;
+    max-width: 1230px;
+    font-family: "Merriweather", serif;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.header__logo {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+    font-size: 26px;
+    margin:auto;
+    /* text-align: center; */
+}
+
+.header__list{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin:15px 0px;
+}
+
+.header-nav__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-nav__content-item {
+    border: 1px rgb(175, 134, 134) solid;
+    text-align: center;
+    padding:5px 15px;
+    margin:0 10px;
+}
+
+.header-nav__content-item__link {
+    color: rgb(175, 134, 134);
+    text-decoration: none;
+}
+
+footer {
+    height:80px;
+    background-color: rgb(175, 134, 134);
+}
+
+
